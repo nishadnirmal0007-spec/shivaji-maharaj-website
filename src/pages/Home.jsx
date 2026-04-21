@@ -25,7 +25,7 @@ export default function Home() {
    
     <div ref={containerRef}>
       {/* HERO */}
-       <h1>nishad</h1>
+       
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Layers */}
         <motion.div style={{ y }} className="absolute inset-0 z-0">
