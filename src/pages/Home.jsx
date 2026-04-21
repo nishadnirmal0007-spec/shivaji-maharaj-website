@@ -70,15 +70,19 @@ export default function Home() {
               Maharaj
             </h1>
 
-              <h1 className="font-display text-4xl sm:text-5xl md:text-7xl text-gradient leading-[1.1] mb-2">
-              Devlop
-            </h1>
-            <h1 className="font-display text-4xl sm:text-5xl md:text-7xl text-[#e8d5a0] leading-[1.1] mb-2">
-              By
-            </h1>
-            <h1 className="font-display text-3xl sm:text-4xl md:text-5xl text-gradient leading-[1.2]">
-              Nishad
-            </h1>
+             <div className="text-center mt-10">
+  <h1 className="font-display text-4xl sm:text-5xl md:text-7xl text-gradient leading-[1.1] mb-2">
+    Developed
+  </h1>
+
+  <h2 className="font-display text-3xl sm:text-4xl md:text-5xl text-[#e8d5a0] mb-2">
+    by
+  </h2>
+
+  <h3 className="font-display text-4xl sm:text-5xl md:text-6xl text-gradient tracking-wide">
+    Nishad Nirmal 🚀
+  </h3>
+</div>
           </motion.div>
 
           {/* Subtitle */}
