@@ -21,8 +21,11 @@ export default function Home() {
   const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0])
 
   return (
+
+   
     <div ref={containerRef}>
       {/* HERO */}
+       <h1>nishad</h1>
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Layers */}
         <motion.div style={{ y }} className="absolute inset-0 z-0">
