@@ -25,7 +25,7 @@ export default function Home() {
    
     <div ref={containerRef}>
       {/* HERO */}
-       <h1>nishad</h1>
+       
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Layers */}
         <motion.div style={{ y }} className="absolute inset-0 z-0">
@@ -70,7 +70,15 @@ export default function Home() {
               Maharaj
             </h1>
 
-            
+              <h1 className="font-display text-4xl sm:text-5xl md:text-7xl text-gradient leading-[1.1] mb-2">
+              Devlop
+            </h1>
+            <h1 className="font-display text-4xl sm:text-5xl md:text-7xl text-[#e8d5a0] leading-[1.1] mb-2">
+              By
+            </h1>
+            <h1 className="font-display text-3xl sm:text-4xl md:text-5xl text-gradient leading-[1.2]">
+              Nishad
+            </h1>
           </motion.div>
 
           {/* Subtitle */}
