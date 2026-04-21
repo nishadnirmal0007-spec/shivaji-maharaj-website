@@ -1,0 +1,36 @@
+import { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import MusicToggle from './components/MusicToggle'
+import StarField from './components/StarField'
+import Home from './pages/Home'
+import Timeline from './pages/Timeline'
+import Forts from './pages/Forts'
+import Gallery from './pages/Gallery'
+import Contact from './pages/Contact'
+
+function App() {
+  const [musicPlaying, setMusicPlaying] = useState(false)
+  return (
+    <Router>
+      <div className="relative min-h-screen bg-[#080300]">
+        <StarField />
+        <Navbar />
+        <MusicToggle playing={musicPlaying} setPlaying={setMusicPlaying} />
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/timeline" element={<Timeline />} />
+            <Route path="/forts" element={<Forts />} />
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
+  )
+}
+
+export default App
